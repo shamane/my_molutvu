@@ -77,3 +77,8 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 
 4 - молитви по потребах по псалтрирю http://forsoul.herokuapp.com/religion-saint-books/2011-psaltyr-na-vsiaku-potrebu-v-iakii-potrebi-iakyi-psalom-chytaty-skladeno-za
 
+5 - Що таке молитва?
+
+6 - Що говорить Святе Писання про молитву?
+
+7 - Що говорять св отці про молитву ?

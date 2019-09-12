@@ -67,8 +67,13 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 
-### Иає бути молитва
+### яка бути молитва
+
 1 - згідно порад о Яна
+
 2 - http://forsoul.herokuapp.com/religion-saint-books/2016-vpiznai-u-sobi-sylu-ztsiliuiuchoi-molytvy-vona-vidkryie-tobi-inshyi-sposib
+
 3 - http://forsoul.herokuapp.com/religion-saint-books/2014-do-yakoho-svyatoho-i-v-yakykh-vypadkakh-ta-khvorobakh-slid-molytysya-m-bory
+
 4 - молитви по потребах по псалтрирю http://forsoul.herokuapp.com/religion-saint-books/2011-psaltyr-na-vsiaku-potrebu-v-iakii-potrebi-iakyi-psalom-chytaty-skladeno-za
+

@@ -67,18 +67,31 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 
-### яка бути молитва
+### how to deploy to heroku ?
+1. https://medium.com/jeremy-gottfrieds-tech-blog/tutorial-how-to-deploy-a-production-react-app-to-heroku-c4831dfcfa08
 
-1 - згідно порад о Яна
+### About routes
+## The Router
+There are two types of router object.
 
-2 - http://forsoul.herokuapp.com/religion-saint-books/2016-vpiznai-u-sobi-sylu-ztsiliuiuchoi-molytvy-vona-vidkryie-tobi-inshyi-sposib
+1. BrowserRouter
+2. HashRouter
 
-3 - http://forsoul.herokuapp.com/religion-saint-books/2014-do-yakoho-svyatoho-i-v-yakykh-vypadkakh-ta-khvorobakh-slid-molytysya-m-bory
+If we want to handle the dynamic request then use BrowserRouter and if we want to serve the static request then use HashRouter.
 
-4 - молитви по потребах по псалтрирю http://forsoul.herokuapp.com/religion-saint-books/2011-psaltyr-na-vsiaku-potrebu-v-iakii-potrebi-iakyi-psalom-chytaty-skladeno-za
+## History
+Every router creates history object to keep track of the current location of the page.
 
-5 - Що таке молитва?
+### for heroku (production)
+```
+   "scripts": {
+     "start": "node server.js",
+   },
+```
 
-6 - Що говорить Святе Писання про молитву?
-
-7 - Що говорять св отці про молитву ?
+### for local (development)
+```
+   "scripts": {
+    "start": "node scripts/start.js",
+   },
+```

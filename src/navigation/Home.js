@@ -38,24 +38,24 @@ class Home extends Component {
           <li><a href="https://www.youtube.com/watch?v=Cf0az929brA">https://www.youtube.com/watch?v=Cf0az929brA - Молитві потрібно вчитись</a></li>
           <li><a href="https://www.youtube.com/watch?v=iz-zm4vc2CQ">https://www.youtube.com/watch?v=iz-zm4vc2CQ - Молитися, віддавати себе Богові</a></li>
           <li><a href="https://www.youtube.com/watch?v=If_465gn6QU">https://www.youtube.com/watch?v=If_465gn6QU - Молитва, це розмова</a></li>
+          <li><a href="https://www.youtube.com/watch?v=h6yxhWxezp0">https://www.youtube.com/watch?v=h6yxhWxezp0 - Молитва це зустріч</a></li>
+          <li><a href="https://www.youtube.com/watch?v=rjwPf5WmcyU">https://www.youtube.com/watch?v=rjwPf5WmcyU - Молитись, це розмовляти з Господом</a></li>
+          <li><a href="https://www.youtube.com/watch?v=Lz7_QK_yRx0">https://www.youtube.com/watch?v=Lz7_QK_yRx0 - Молитва, це унікальна зустріч особистостей</a></li>
+          <li><a href="https://www.youtube.com/watch?v=YIF1RRb3Jx4">https://www.youtube.com/watch?v=YIF1RRb3Jx4 - Молитва, це нагода пізнавати Божу волю</a></li>
           <li><a href="https://www.youtube.com/watch?v=5PPVVxHiKR8">https://www.youtube.com/watch?v=5PPVVxHiKR8 - Важливість приготування перед молитвою</a></li>
           <li><a href="https://www.youtube.com/watch?v=nha-Un2Kw3w">https://www.youtube.com/watch?v=nha-Un2Kw3w - Чи ми віримо, про що просимо в молитві?</a></li>
-          <li><a href="https://www.youtube.com/watch?v=rjwPf5WmcyU">https://www.youtube.com/watch?v=rjwPf5WmcyU - Молитись, це розмовляти з Господом</a></li>
           <li><a href="https://www.youtube.com/watch?v=RcPE1psAVPo">https://www.youtube.com/watch?v=RcPE1psAVPo - Якою має бути справжня МОЛИТВА? | Відкрита Церква. Діалоги</a></li>
           <li><a href="https://www.youtube.com/watch?v=0yAD3znGjNE">https://www.youtube.com/watch?v=0yAD3znGjNE - Уважність до подій в житті провадить нас до молитви</a></li>
           <li><a href="https://www.youtube.com/watch?v=FiWOxr9wtG8">https://www.youtube.com/watch?v=FiWOxr9wtG8 - Труднощі вчать нас молитві</a></li>
           <li><a href="https://www.youtube.com/watch?v=sf25a0MDQmY">https://www.youtube.com/watch?v=sf25a0MDQmY - В молитві маємо віддавати ціле своє життя Господеві</a></li>
           <li><a href="https://www.youtube.com/watch?v=wmqeSZbPDTQ">https://www.youtube.com/watch?v=wmqeSZbPDTQ - Життя показує якою є наша молитва</a></li>
           <li><a href="https://www.youtube.com/watch?v=xhjEBTgy0AI">https://www.youtube.com/watch?v=xhjEBTgy0AI - Важливість Молитви</a></li>
-          <li><a href="https://www.youtube.com/watch?v=YIF1RRb3Jx4">https://www.youtube.com/watch?v=YIF1RRb3Jx4 - Молитва, це нагода пізнавати Божу волю</a></li>
           <li><a href="https://www.youtube.com/watch?v=de2VglQNIs0">https://www.youtube.com/watch?v=de2VglQNIs0 - Чи ми лише прохачі в молитві</a></li>
-          <li><a href="https://www.youtube.com/watch?v=Lz7_QK_yRx0">https://www.youtube.com/watch?v=Lz7_QK_yRx0 - Молитва, це унікальна зустріч особистостей</a></li>
           <li><a href="https://www.youtube.com/watch?v=dgn_jyntyZc">https://www.youtube.com/watch?v=dgn_jyntyZc - Молитовне правило</a></li>
           <li><a href="https://www.youtube.com/watch?v=4Rm6sM8F-q0">https://www.youtube.com/watch?v=4Rm6sM8F-q0 - Кожна молитва є унікальною і неповторною</a></li>
           <li><a href="https://www.youtube.com/watch?v=1yhYVmU944I">https://www.youtube.com/watch?v=1yhYVmU944I - Важливість тиші у молитві</a></li>
           <li><a href="https://www.youtube.com/watch?v=qkMtzfU8JFY">https://www.youtube.com/watch?v=qkMtzfU8JFY - Великий піст. Молитва, піст і милостиня</a></li>
           <li><a href="https://www.youtube.com/watch?v=CgoNoeuSgGc">https://www.youtube.com/watch?v=CgoNoeuSgGc - Чому ми не молимось ?</a></li>
-          <li><a href="https://www.youtube.com/watch?v=h6yxhWxezp0">https://www.youtube.com/watch?v=h6yxhWxezp0 - Молитва це зустріч</a></li>
          </ul>
       </div>
     );

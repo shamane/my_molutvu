@@ -4,13 +4,22 @@ class Home extends Component {
   render() {
     return (
       <div>
-        <h2>Плани читання Святого Письма</h2>
+        <h3>Молитва і Святе Письмо</h3>
         <ul>
-          <li><a href="http://forsoul.herokuapp.com/religion-saint-books/2018-bibliia-za-365-dniv-plan-chytannia" target="_blank">Біблія за 365 днів. План читання</a></li>
-          <li><a href="http://forsoul.herokuapp.com/religion-saint-books/2018-plan-chytannia-sviatoho-pysma" target="_blank">План читання Святого письма</a></li>
-          <li><a href="http://forsoul.herokuapp.com/religion-saint-books/2018-molytovne-chytannia-yevanheliia-vid-luky-o-dr-taras-barshchevskyi" target="_blank">Молитовне читання Євангелія від Луки</a></li>
-          <li><a href="http://forsoul.herokuapp.com/religion-saint-books/2017-molytovne-chytannia-yevanheliia-vid-mateia-o-dr-taras-barshchevskyi" target="_blank">Молитовне читання Євангелія від Матея</a></li>
-          <li><a href="http://forsoul.herokuapp.com/religion-saint-books/2015-molytovne-chytannia-yevanheliia-vid-marka-o-dr-taras-barshchevskyi" target="_blank">Молитовне читання Євангелія від Марка</a></li>
+          <li>1. В Біблії в цілому записані 650 молитов.</li>
+          <li>2. Першу згадку про молитву ми знаходимо в Буття 4:26.</li>
+          <li>3. У Біблії зафіксовані близько 450 відповідей на молитви.</li>
+          <li>4. Біблія містить 25 молитов Ісуса під час Його земного служіння.</li>
+          <li>5. Апостол Павло говорить про молитву (молитви, молитовні прохання, молитовні звіти, заклики до молитви) 41 раз.</li>
+          <li>6. Хоча молитися можна в будь-якій тілесної позі, Біблія згадує про п'ять з них: сидячи, стоячи, на колінах, обличчям до землі і з піднятими вгору руками.</li>
+          <li>7. Ісус, кажучи про молитву (Луки 11: 1-4), вказує на шість аспектів, які потребують уваги: Божа вічна слава («Нехай святиться ім'я Твоє»), Його вічне Царство («нехай прийде Царство Твоє»), Його свята воля («нехай буде воля Твоя»), наше сьогодення («дай нам»), наше минуле («прости нам») та наше майбутнє («не введи нас»).</li>
+          <li>8. В Біблії слово «Амінь» (яке буквально означає "нехай буде так», «так є», «істинно») вперше з'являється в книзі Числа 5:22.</li>
+        </ul>
+
+        <h3>Молитва і вчені</h3>
+        <ul>
+          <li><a href="https://www.youtube.com/watch?v=Hj2HodCW3GY&feature=youtu.be&t=5713" target="_blank">о Ян Білецький, екзерцист 2019-09-14 про молитву</a></li>
+          <li><a href="http://bible-facts.ru/633-neobyasnimoe-i-neveroyatnoe.html" target="_blank">ШОКИРУЮЩИЕ РЕЗУЛЬТАТЫ ИССЛЕДОВАНИЯ</a></li>
         </ul>
       </div>
     );

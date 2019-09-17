@@ -16,11 +16,47 @@ class Home extends Component {
           <li>8. В Біблії слово «Амінь» (яке буквально означає "нехай буде так», «так є», «істинно») вперше з'являється в книзі Числа 5:22.</li>
         </ul>
 
+        <ul>
+        <li>Усе, чого ви в молитві попросите, вірте, що одержите, і сповниться вам." Марка 11:24 Молитва – це розмова з Богом. Оскільки Бог знає думки твого серця, то ти можеш тільки думати, а Він буде слухати. 
+          Ти можеш Йому дякувати за все, що Він тобі зробив. 
+          Ти можеш Йому сказати, що каєшся за те, що вчинив неправильно. 
+          Ти можеш молитися, щоб Він тобі допоміг та іншим.
+          Коли молишся, то молись без сумніву і вір, що Господь почує тебе. Коли терпиш, то пам'ятай, що Бог завжди з тобою. Не сприймай терпінння як кару Божу, а як Його ласку до тебе, бо без терпіння важко досягти спасіння. Бог є Любов і Він любить тебе. ПАМ'ЯТАЙ ПРО ЦЕ !!!</li>
+        </ul>
+
         <h3>Молитва і вчені</h3>
         <ul>
           <li><a href="https://www.youtube.com/watch?v=Hj2HodCW3GY&feature=youtu.be&t=5713" target="_blank">о Ян Білецький, екзерцист 2019-09-14 про молитву</a></li>
           <li><a href="http://bible-facts.ru/633-neobyasnimoe-i-neveroyatnoe.html" target="_blank">ШОКИРУЮЩИЕ РЕЗУЛЬТАТЫ ИССЛЕДОВАНИЯ</a></li>
         </ul>
+
+        <h4>"ШКОЛА МОЛИТВИ" ВЛАДИКИ ВЕНЕДИКТА</h4>
+        <ul>
+          <li><a href="https://www.youtube.com/watch?v=cUT5yp2DKW4">https://www.youtube.com/watch?v=cUT5yp2DKW4 - Молитви за інших</a></li>
+          <li><a href="https://www.youtube.com/watch?v=r_deZvYZhgc">https://www.youtube.com/watch?v=r_deZvYZhgc - Бог дає нам досвідчити себе в молитві</a></li>
+          <li><a href="https://www.youtube.com/watch?v=exI1u92uA1M">https://www.youtube.com/watch?v=exI1u92uA1M - Молитва це праця та зусилля</a></li>
+          <li><a href="https://www.youtube.com/watch?v=Cf0az929brA">https://www.youtube.com/watch?v=Cf0az929brA - Молитві потрібно вчитись</a></li>
+          <li><a href="https://www.youtube.com/watch?v=iz-zm4vc2CQ">https://www.youtube.com/watch?v=iz-zm4vc2CQ - Молитися, віддавати себе Богові</a></li>
+          <li><a href="https://www.youtube.com/watch?v=If_465gn6QU">https://www.youtube.com/watch?v=If_465gn6QU - Молитва, це розмова</a></li>
+          <li><a href="https://www.youtube.com/watch?v=5PPVVxHiKR8">https://www.youtube.com/watch?v=5PPVVxHiKR8 - Важливість приготування перед молитвою</a></li>
+          <li><a href="https://www.youtube.com/watch?v=nha-Un2Kw3w">https://www.youtube.com/watch?v=nha-Un2Kw3w - Чи ми віримо, про що просимо в молитві?</a></li>
+          <li><a href="https://www.youtube.com/watch?v=rjwPf5WmcyU">https://www.youtube.com/watch?v=rjwPf5WmcyU - Молитись, це розмовляти з Господом</a></li>
+          <li><a href="https://www.youtube.com/watch?v=RcPE1psAVPo">https://www.youtube.com/watch?v=RcPE1psAVPo - Якою має бути справжня МОЛИТВА? | Відкрита Церква. Діалоги</a></li>
+          <li><a href="https://www.youtube.com/watch?v=0yAD3znGjNE">https://www.youtube.com/watch?v=0yAD3znGjNE - Уважність до подій в житті провадить нас до молитви</a></li>
+          <li><a href="https://www.youtube.com/watch?v=FiWOxr9wtG8">https://www.youtube.com/watch?v=FiWOxr9wtG8 - Труднощі вчать нас молитві</a></li>
+          <li><a href="https://www.youtube.com/watch?v=sf25a0MDQmY">https://www.youtube.com/watch?v=sf25a0MDQmY - В молитві маємо віддавати ціле своє життя Господеві</a></li>
+          <li><a href="https://www.youtube.com/watch?v=wmqeSZbPDTQ">https://www.youtube.com/watch?v=wmqeSZbPDTQ - Життя показує якою є наша молитва</a></li>
+          <li><a href="https://www.youtube.com/watch?v=xhjEBTgy0AI">https://www.youtube.com/watch?v=xhjEBTgy0AI - Важливість Молитви</a></li>
+          <li><a href="https://www.youtube.com/watch?v=YIF1RRb3Jx4">https://www.youtube.com/watch?v=YIF1RRb3Jx4 - Молитва, це нагода пізнавати Божу волю</a></li>
+          <li><a href="https://www.youtube.com/watch?v=de2VglQNIs0">https://www.youtube.com/watch?v=de2VglQNIs0 - Чи ми лише прохачі в молитві</a></li>
+          <li><a href="https://www.youtube.com/watch?v=Lz7_QK_yRx0">https://www.youtube.com/watch?v=Lz7_QK_yRx0 - Молитва, це унікальна зустріч особистостей</a></li>
+          <li><a href="https://www.youtube.com/watch?v=dgn_jyntyZc">https://www.youtube.com/watch?v=dgn_jyntyZc - Молитовне правило</a></li>
+          <li><a href="https://www.youtube.com/watch?v=4Rm6sM8F-q0">https://www.youtube.com/watch?v=4Rm6sM8F-q0 - Кожна молитва є унікальною і неповторною</a></li>
+          <li><a href="https://www.youtube.com/watch?v=1yhYVmU944I">https://www.youtube.com/watch?v=1yhYVmU944I - Важливість тиші у молитві</a></li>
+          <li><a href="https://www.youtube.com/watch?v=qkMtzfU8JFY">https://www.youtube.com/watch?v=qkMtzfU8JFY - Великий піст. Молитва, піст і милостиня</a></li>
+          <li><a href="https://www.youtube.com/watch?v=CgoNoeuSgGc">https://www.youtube.com/watch?v=CgoNoeuSgGc - Чому ми не молимось ?</a></li>
+          <li><a href="https://www.youtube.com/watch?v=h6yxhWxezp0">https://www.youtube.com/watch?v=h6yxhWxezp0 - Молитва це зустріч</a></li>
+         </ul>
       </div>
     );
   }

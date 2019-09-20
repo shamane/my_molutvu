@@ -1,7 +1,34 @@
 import React, { Component } from 'react';
 
 class Home extends Component {
+
+  constructor() {
+    super();
+    this.state = { monsters: [] }
+  }
+
+  componentDidMount() {
+    fetch('https://yournotices.herokuapp.com/api/v1/positive/molutva')
+      .then(response => response.json())
+      .catch(error => console.log(error))
+      .then(users => this.setState({ monsters: users }));
+      // .then(response => response.json())
+      // .then(response => console.log("data is", response))
+  }
+
   render() {
+    const { monsters } = this.state;
+
+    const showRemoteDate = () => {
+      if ( monsters['data'] ) {
+        const row = monsters['data'].map((_row, index) => {
+          // return (<li>{_row.attributes['data-uk'] } {_row.attributes['data-uk']} {_row.attributes['data-ru']} ({_row.attributes.source})</li>)
+          return (<li><a href={_row.attributes['original-link']}  target="_blank">{_row.attributes['title-original-link-uk']} {_row.attributes['title-original-link-ru']}</a></li>)
+        })
+        return row;
+      }
+    };
+
     return (
       <div>
         <h3>Молитва і Святе Письмо</h3>
@@ -57,6 +84,9 @@ class Home extends Component {
           <li><a href="https://www.youtube.com/watch?v=qkMtzfU8JFY">https://www.youtube.com/watch?v=qkMtzfU8JFY - Великий піст. Молитва, піст і милостиня</a></li>
           <li><a href="https://www.youtube.com/watch?v=CgoNoeuSgGc">https://www.youtube.com/watch?v=CgoNoeuSgGc - Чому ми не молимось ?</a></li>
          </ul>
+
+        <h4>Іньше про молитву :</h4>
+        <ul>{showRemoteDate()}</ul>
       </div>
     );
   }

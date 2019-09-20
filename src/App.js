@@ -14,15 +14,13 @@ import Jumbotron from 'react-bootstrap/Jumbotron';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
 
-const bible_for_every_day1 = []
-
 class App extends Component {
   render() {
-
     return (
       <Router>
         <div>
           <h2>Молитва</h2>
+
           <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <ul className="navbar-nav mr-auto">
               <li><Link to={'/'} className="nav-link"> / </Link></li>

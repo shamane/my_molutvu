@@ -1,23 +1,26 @@
 import React, { Component } from 'react';
+import LoadingSpinner from './loadingSpinner';
 
 class Home extends Component {
 
   constructor() {
     super();
-    this.state = { monsters: [] }
+    this.state = { monsters: [], loading: false }
   }
 
   componentDidMount() {
-    fetch('https://yournotices.herokuapp.com/api/v1/positive/molutva')
-      .then(response => response.json())
-      .catch(error => console.log(error))
-      .then(users => this.setState({ monsters: users }));
-      // .then(response => response.json())
-      // .then(response => console.log("data is", response))
+    this.setState({ loading: true }, () => {
+      fetch('https://yournotices.herokuapp.com/api/v1/positive/molutva')
+        .then(response => response.json())
+        .catch(error => console.log(error))
+        .then(users => this.setState({ loading: false, monsters: users }));
+        // .then(response => response.json())
+        // .then(response => console.log("data is", response))
+    });
   }
 
   render() {
-    const { monsters } = this.state;
+    const { monsters, loading } = this.state;
 
     const showRemoteDate = () => {
       if ( monsters['data'] ) {
@@ -86,7 +89,9 @@ class Home extends Component {
          </ul>
 
         <h4>Іньше про молитву :</h4>
-        <ul>{showRemoteDate()}</ul>
+      
+        {loading ? <LoadingSpinner /> :  <ul>{showRemoteDate()}</ul>}
+
       </div>
     );
   }

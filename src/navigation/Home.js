@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import LoadingSpinner from './loadingSpinner';
+import Popup from './../components/Popup';
 
 class Home extends Component {
 
   constructor() {
     super();
-    this.state = { monsters: [], loading: false }
+    this.state = { monsters: [], loading: false, showPopup: false }
   }
 
   componentDidMount() {
@@ -19,8 +20,14 @@ class Home extends Component {
     });
   }
 
+  togglePopup() {
+    this.setState({ showPopup: !this.state.showPopup });
+  }
+
   render() {
     const { monsters, loading } = this.state;
+
+    console.log("monsters is", monsters)
 
     const showRemoteDate = () => {
       if ( monsters['data'] ) {
@@ -91,6 +98,16 @@ class Home extends Component {
         <h4>Іньше про молитву :</h4>
       
         {loading ? <LoadingSpinner /> :  <ul>{showRemoteDate()}</ul>}
+
+        <button onClick={this.togglePopup.bind(this)}>Click</button>
+
+        {this.state.showPopup ?
+          <Popup
+            text='test'
+            closePopup={this.togglePopup.bind(this)}
+           />
+          : null
+        }
 
       </div>
     );

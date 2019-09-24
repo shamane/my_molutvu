@@ -69,6 +69,7 @@ class Home extends Component {
 
         <h4>"ШКОЛА МОЛИТВИ" ВЛАДИКИ ВЕНЕДИКТА</h4>
         <ul>
+          <li><a href="https://www.youtube.com/watch?v=kq5wD_sN4rg">https://www.youtube.com/watch?v=kq5wD_sN4rg - В молитві маємо робити все що можимо і тоді уповати на Господа</a></li>
           <li><a href="https://www.youtube.com/watch?v=cUT5yp2DKW4">https://www.youtube.com/watch?v=cUT5yp2DKW4 - Молитви за інших</a></li>
           <li><a href="https://www.youtube.com/watch?v=r_deZvYZhgc">https://www.youtube.com/watch?v=r_deZvYZhgc - Бог дає нам досвідчити себе в молитві</a></li>
           <li><a href="https://www.youtube.com/watch?v=exI1u92uA1M">https://www.youtube.com/watch?v=exI1u92uA1M - Молитва це праця та зусилля</a></li>

@@ -6,6 +6,7 @@ import About from './navigation/About';
 import Contact from './navigation/Contact';
 
 import PoraduoJana from './navigation/PoraduoJana';
+import SulaMolutvu from './navigation/SulaMolutvu';
 import MolutvaPomerli from './navigation/MolutvaPomerli';
 
 import { Table } from 'react-bootstrap';
@@ -26,7 +27,7 @@ class App extends Component {
             <ul className="navbar-nav mr-auto">
               <li><Link to={'/'} className="nav-link"> / </Link></li>
               <li><Link to={'/poradu-o-jana'} className="nav-link">Згідно порад о.Яна   </Link></li>
-              <li><Link to={'#'} className="nav-link">Категорії з книги "Сила молитви"   </Link></li>
+              <li><Link to={'/sula-molutvu'} className="nav-link">Категорії з книги "Сила молитви"   </Link></li>
               <li><Link to={'#'} className="nav-link">Категорії з книги з Борислава "до якого святого молитись"   </Link></li>
               <li><Link to={'#'} className="nav-link">Молитви по псалтирю по потребах   </Link></li>
               <li><Link to={'/molutva-sa-pomerlux'} className="nav-link">Молитви за померлих   </Link></li>
@@ -39,6 +40,7 @@ class App extends Component {
           <Switch>
             <Route exact path='/' component={Home} />
             <Route path='/poradu-o-jana' component={PoraduoJana} />
+            <Route path='/sula-molutvu' component={SulaMolutvu} />
             <Route path='/molutva-sa-pomerlux' component={MolutvaPomerli} />
             <Route path='/contact' component={Contact} />
             <Route path='/about' component={About} />

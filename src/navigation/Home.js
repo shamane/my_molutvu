@@ -27,8 +27,6 @@ class Home extends Component {
   render() {
     const { monsters, loading } = this.state;
 
-    console.log("monsters is", monsters)
-
     const showRemoteDate = () => {
       if ( monsters['data'] ) {
         const row = monsters['data'].map((_row, index) => {
@@ -69,6 +67,7 @@ class Home extends Component {
 
         <h4>"ШКОЛА МОЛИТВИ" ВЛАДИКИ ВЕНЕДИКТА</h4>
         <ul>
+          <li><a href="https://www.youtube.com/watch?v=JHvvcja7Po4">https://www.youtube.com/watch?v=JHvvcja7Po4 - Бог завжди вірить в нас і у нашу спосібність молитись</a></li>
           <li><a href="https://www.youtube.com/watch?v=kq5wD_sN4rg">https://www.youtube.com/watch?v=kq5wD_sN4rg - В молитві маємо робити все що можимо і тоді уповати на Господа</a></li>
           <li><a href="https://www.youtube.com/watch?v=cUT5yp2DKW4">https://www.youtube.com/watch?v=cUT5yp2DKW4 - Молитви за інших</a></li>
           <li><a href="https://www.youtube.com/watch?v=r_deZvYZhgc">https://www.youtube.com/watch?v=r_deZvYZhgc - Бог дає нам досвідчити себе в молитві</a></li>

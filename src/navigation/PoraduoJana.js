@@ -1,11 +1,6 @@
-// import React from 'react';
-// import { Fragment, default as React } from 'react';
-import * as React from 'react'
-import { Fragment } from 'react'
+import React from 'react'
 
-function PoraduoJana() {
-  const greeting = 'Hello Function Component!';
-
+const PoraduoJana = () => {
   const data = <>
     <ul>
       <h4>1. За ворогів роду.</h4>

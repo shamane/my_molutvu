@@ -99,6 +99,10 @@ class Home extends Component {
       
         {loading ? <LoadingSpinner /> :  <ul>{showRemoteDate()}</ul>}
 
+        <ul>
+          <li><a href="https://dyvensvit.org/top/1022338/">https://dyvensvit.org/top/1022338/ - ТВОЯ МОЛИТВА РОЗКАЖЕ ПРО ТЕБЕ УСЕ</a></li>
+        </ul>
+
         <button onClick={this.togglePopup.bind(this)}>Click</button>
 
         {this.state.showPopup ?

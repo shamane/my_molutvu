@@ -2,13 +2,13 @@ import React from 'react';
 
 function MojeMolutovnePravulo() {
 
-	const links = ["http://forsoul.herokuapp.com/religion-saint-books/2016-rozdumy-khrystyianyna-pro-anhela-khoronytelia-vydannia-2-v-drabyk",
-	               "http://forsoul.herokuapp.com/religion-saint-books/2017-u-tainstvi-shliubu-molytovnyk-dlia-podruzhzhia"]
+  const links = ["http://forsoul.herokuapp.com/religion-saint-books/2016-rozdumy-khrystyianyna-pro-anhela-khoronytelia-vydannia-2-v-drabyk",
+                 "http://forsoul.herokuapp.com/religion-saint-books/2017-u-tainstvi-shliubu-molytovnyk-dlia-podruzhzhia"]
 
   return (
     <div>
       <h4>Щоденні молитви</h4>
-      <ul>
+      <ol>
         <li>В імя отця і сина,</li>
         <li>Молитва до Святого Духа</li>
         <li>Трисвяте</li>
@@ -27,10 +27,10 @@ function MojeMolutovnePravulo() {
         <li>Величання Пресвятої Трійці</li>
         <li>Митарева молитва</li>
         <li>Молитва Святого Єфрема</li>
-      </ul>
+      </ol>
 
       <h4>Молитви вранці</h4>
-      <ul>
+      <ol>
         <li>Ранішня молитва</li>
         <li>Ранішня молитва людини, спраглої Бога (Псалом 63)</li>
         <li>Господи, не знаю, що ти запланував для мене</li>
@@ -42,10 +42,10 @@ function MojeMolutovnePravulo() {
         <li>Молитва до ангела-хоронителя</li>
         <li>Молитва робочого дня</li>
         <li>Молитва про працьовитість</li>
-      </ul>
+      </ol>
 
       <h4>Молитви ввечері</h4>
-      <ul>
+      <ol>
         <li>Уседобрий Боже! Від усього серця дякую Тобі за поживу й здоров'я</li>
         <li>Усемогутній Боже, чувай наді мною, благослови наш дім і його мешканців</li>
         <li>Господи, день добігає кінця, Тобі ж належать усі дні та ночі</li>
@@ -54,7 +54,30 @@ function MojeMolutovnePravulo() {
         <li>Псалом 4</li>
         <li>Молитва до Божого Архангела Михаїла</li>
         <li>Молитва до Архангелів на кожний день тижня</li>
-      </ul>
+        <li>Царю Небесний ...</li>
+        <li>О Духу-Сотворителю, прийди</li>
+        <li>Ангельське привітання (Радуйся, Маріє)</li>
+        <li>Радуйся, Царице</li>
+        <li>Достойне є воістину</li>
+        <li>Молитва про опіку Божої Матері</li>
+        <li>Преславна Приснодіво Богородице</li>
+        <li>Псалом 50</li>
+        <li>Псалом 90</li>
+        <li>Молитва до животворящого Хреста</li>
+        <li>Молитва до Божого Архангела Михаїла</li>
+        <li>О святий Архангеле Михаїле</li>
+        <li>Святий Архангеле Михаїле</li>
+        <li>Молитва до Ангела-хранителя</li>
+        <li>Молитва до Ангела-хоронителя</li>
+        <li>Молитва до всіх святих</li>
+        <li>Ангеле Божий, прости мене ...</li>
+        <li>Символ віри</li>
+        <li>Дякую Тобі, Ісусе ...</li>
+        <li>Молитва за терплячі душі в чистилищі</li>
+        <li>О наш любий Ісусе</li>
+        <li>Вічний відпочинок дай їм Господи ...</li>
+        <li>Зі Святими упокій ...</li>
+      </ol>
 
       <h5>Матеріал запозичений з :</h5>
       <ul>

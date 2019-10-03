@@ -3,7 +3,8 @@ import React from 'react';
 function MojeMolutovnePravulo() {
 
   const links = ["http://forsoul.herokuapp.com/religion-saint-books/2016-rozdumy-khrystyianyna-pro-anhela-khoronytelia-vydannia-2-v-drabyk",
-                 "http://forsoul.herokuapp.com/religion-saint-books/2017-u-tainstvi-shliubu-molytovnyk-dlia-podruzhzhia"]
+                 "http://forsoul.herokuapp.com/religion-saint-books/2017-u-tainstvi-shliubu-molytovnyk-dlia-podruzhzhia",
+                 "http://forsoul.herokuapp.com/religion-saint-books/2016-rozdumy-khrystyianyna-pro-anhela-khoronytelia-vydannia-2-v-drabyk"]
 
   return (
     <div>

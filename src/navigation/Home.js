@@ -101,6 +101,8 @@ class Home extends Component {
 
         <ul>
           <li><a href="https://dyvensvit.org/top/1022338/">https://dyvensvit.org/top/1022338/ - ТВОЯ МОЛИТВА РОЗКАЖЕ ПРО ТЕБЕ УСЕ</a></li>
+          <li><a href="https://dyvensvit.org/top/1022512/">https://dyvensvit.org/top/1022512/ - КОЛИ МОЛИШСЯ – БУДЬ ЧЕСНИЙ ІЗ БОГОМ</a></li>
+          <li><a href="https://dyvensvit.org/top/1022751/">https://dyvensvit.org/top/1022751/ - ТАЄМНИЦЯ МОЛИТВИ, ПРО ЯКУ ЗНАЄ ДАЛЕКО НЕ КОЖЕН</a></li>
         </ul>
 
         <button onClick={this.togglePopup.bind(this)}>Click</button>
